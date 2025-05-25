@@ -36,39 +36,64 @@ Este es un **Blog** construido con Laravel que permite:
 ---
 
 ## 🗂️ Estructura del proyecto
-/app -> Controladores, Modelos, etc.
-/resources -> Vistas (Blade templates)
-/routes -> Archivo web.php para rutas
-/database -> Migraciones y seeds
-/public -> Archivos públicos (css, js, imágenes)
+/app -> Controladores, Modelos, etc. /resources -> Vistas (Blade templates) /routes -> Archivo web.php para rutas /database -> Migraciones y seeds /public -> Archivos públicos (css, js, imágenes)
+
+---
 
 ## ⚡ Instalación y Configuración
 
 1. **Clonar el repositorio:**
+    ```bash
+    git clone https://tu-repositorio.git
+    cd nombre-del-proyecto
+    ```
+
+2. **Instalar dependencias con Composer:**
+    ```bash
+    composer install
+    ```
+
+3. **Copiar archivo de entorno y configurar variables:**
+    ```bash
+    cp .env.example .env
+    ```
+    Edita el archivo [.env](http://_vscodecontentref_/0) con tus credenciales de base de datos:
+    ```
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel_db
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+
+4. **Generar la clave de la aplicación:**
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Ejecutar migraciones y seeders:**
+    ```bash
+    php artisan migrate --seed
+    ```
+
+6. **Instalar dependencias de frontend y compilar assets:**
+    ```bash
+    npm install
+    npm run dev
+    ```
+
+7. **Levantar el servidor de desarrollo:**
+    ```bash
+    php artisan serve
+    ```
+
+---
+
+## 🧪 Pruebas
+
+Para ejecutar las pruebas, usa:
 
 ```bash
-git clone https://tu-repositorio.git
-cd nombre-del-proyecto
-Instalar dependencias con Composer:
-composer install
-Copiar archivo de entorno:
-cp .env.example .env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel_db
-DB_USERNAME=root
-DB_PASSWORD= 
-Ejecutar migraciones y seeders:
-Ejecutar migraciones y seeders:
-Generar key de aplicación:
-
-bash
-Copiar
-Editar
-php artisan key:generate
-
-composer run dev
-
-
-
+composer run dev 
+```

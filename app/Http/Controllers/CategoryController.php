@@ -22,7 +22,6 @@ class CategoryController extends Controller
     }
 
     public function deletePost($id){
-
         $post = Post::findOrFail($id);
         $post->delete();
 
