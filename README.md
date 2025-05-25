@@ -54,6 +54,10 @@ Este es un **Blog** construido con Laravel que permite:
 ## img
 
 ![alt text](image.png)
+![image](https://github.com/user-attachments/assets/b49d5028-67e0-44c7-9342-4baa2c3ccd78)
+![image](https://github.com/user-attachments/assets/4995f185-c557-42ca-b7e7-68501ff2d6ec)
+![image](https://github.com/user-attachments/assets/c4bf87b0-2bb4-481f-a273-6cafc60ccddb)
+![image](https://github.com/user-attachments/assets/5d90dd64-afe2-4c77-b562-76d9bdbe5c4b)
 
 ---
 
