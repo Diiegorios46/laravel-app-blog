@@ -43,9 +43,17 @@ Este es un **Blog** construido con Laravel que permite:
 
 - Crear, leer, actualizar y eliminar posts (CRUD).
 - Registro de usuarios.
-- Login y logout.
 - Manejo de sesiones y roles básicos.
 - Base de datos relacional con Modelo Conceptual de Datos (MCD) simple.
+
+---
+
+
+---
+
+## img
+
+![alt text](image.png)
 
 ---
 
