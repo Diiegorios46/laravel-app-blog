@@ -56,8 +56,9 @@ Este es un **Blog** construido con Laravel que permite:
 ![alt text](image.png)
 ![image](https://github.com/user-attachments/assets/b49d5028-67e0-44c7-9342-4baa2c3ccd78)
 ![image](https://github.com/user-attachments/assets/4995f185-c557-42ca-b7e7-68501ff2d6ec)
-![image](https://github.com/user-attachments/assets/f34e8a84-a979-4682-8c80-545808fa5a37)
+![image](https://github.com/user-attachments/assets/ab1ef378-7787-4589-878f-914caa055fa2)
 ![image](https://github.com/user-attachments/assets/5d90dd64-afe2-4c77-b562-76d9bdbe5c4b)
+![image](https://github.com/user-attachments/assets/01d38990-b555-4379-b8cf-380623a74a59)
 
 ---
 
